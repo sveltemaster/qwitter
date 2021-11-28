@@ -1,0 +1,28 @@
+{
+  "name": "qwitter",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.3.7",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.9",
+    "postcss-load-config": "^3.1.0",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.9.8",
+    "tailwindcss": "^2.2.16"
+  },
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.28.1",
+    "daisyui": "^1.16.2",
+    "svelte-cubed": "^0.2.1",
+    "three": "^0.134.0"
+  }
+}
