@@ -14,7 +14,7 @@ I didn't finish the README but please reference the video!
 2. `$ npx svelte-add@latest tailwindcss`
 3. `$ npm install`
 4. `$ npm install daisyui`
-5. Add `require('daisyui')` to `plugins` in `tailwind.config.cjs` 
+5. Add `require('daisyui')` to `plugins` in `tailwind.config.cjs`
 	(like: `plugins: [require('daisyui')],`)
 ### B. Setup Supabase project
 1. Create new Project
@@ -44,7 +44,7 @@ supabase.auth.onAuthStateChange((event) => {
 })
 ```
 
-4. Add a src/lib/Error.svelte component 
+4. Add a src/lib/Error.svelte component
 ```
 <script>
 	export let error
@@ -98,7 +98,7 @@ export async function signOut() {
 3. Use an [Input with Button](https://daisyui.com/components/form/input) (scroll down) for the Magic Link
 4. Add in form/promise logic to handle the signin (See video or login.svelte file)
 
-### E. Add CreatePost.svelte 
+### E. Add CreatePost.svelte
 1. Create posts schema in Supabase (user, content)
 2. Add to services.js
 ```
